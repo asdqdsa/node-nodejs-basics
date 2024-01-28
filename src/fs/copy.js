@@ -4,8 +4,6 @@ import path from 'path';
 const src = path.join(import.meta.dirname, 'files');
 const dest = path.join(import.meta.dirname, 'files_copy');
 
-console.log(src, dest);
-
 const copy = async () => {
   // Write your code here
   try {
